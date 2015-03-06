@@ -1,0 +1,764 @@
+﻿* {
+    background-size: cover;
+    background-attachment: fixed;   
+    font-family: Calibri;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    font-size: 80px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+
+#entete {
+    height: 60px;
+    width: 101.2%;
+    margin-left: -8px;
+    background-color: #161918;
+    margin-top: -1.2%;
+    position: relative;
+}
+
+#entete p, #entete p a{
+    color : white;
+}
+
+#titreEntete{
+    position: absolute;
+    top: -16px;
+    left: 100px;
+}
+#titreEntete p {
+    font-size: 30px;
+    
+}
+
+#formCo{
+    position: absolute;
+    right : 30px;;
+}
+
+.champsCo{
+    border : 1px solid grey;
+    background: white;
+}
+
+#seCo{
+    background: white;
+    border : 1px solid grey;
+}
+
+.login {
+   float: left; 
+   margin-top: 7px;
+   margin-left: 30px;
+}
+
+#bouton { 
+    float: left;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+
+#linkAdminBonbon {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    margin-left: 700px;
+    padding: 0 5px 0 5px;
+    line-height: 19px;
+}
+
+#linkAdminBonbon p {
+    font-size: 18px;
+}
+
+#linkadminBonbon:hover {
+    background-color: #6f6b6b;  
+}
+
+#linkAdminPage {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    margin-left: 880px;
+    padding: 0 5px 0 5px;
+    line-height: 19px;
+}
+
+#linkAdminPage p {
+    font-size: 18px;
+}
+
+#linkadminPage:hover {
+    background-color: #6f6b6b;  
+}
+
+
+#deconnect{
+    position: absolute;
+    width : 200px;
+    right : 50px;
+    font-size : 17px;
+}
+
+#deconnect p{
+    margin-top: 23px;
+}
+
+#messageConfirm{
+    position : absolute;
+    left : 42%;
+    width : 15%;
+    height : 50px;
+    border : 1px solid black;
+    background: #999999;
+    box-shadow: 0px 0px 7px #333;
+    z-index: 1;
+    
+}
+
+#textConfirm{
+    color : white;
+    font-size : 18px;
+    margin-top: 12px;
+}
+
+/*//////////////////////////////////MENU////////////////////////////////*/
+#menu {
+    background-color: #484646;
+    position: relative;
+    margin-left: -8px;
+    width: 101.2%;
+}
+
+.row {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.ul-menu {
+    display: table;
+    table-layout: fixed;
+    height: 38px;
+    cursor: default;
+    margin: 0;
+    list-style: none;
+}
+
+.li-menu {
+    text-align: center;
+    display: table-cell;
+    float: none;
+    cursor: default;
+}
+
+.li-menu a {
+    font-size: 18px;
+    line-height: 38px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #484646;
+    
+}
+
+.li-menu:hover {
+    background-color: #6f6b6b;
+}
+
+.li-menu a:hover {
+    background-color: #6f6b6b;
+}
+
+.li-menuActif {
+    text-align: center;
+    display: table-cell;
+    float: none;
+    cursor: default;
+    background-color: #6f6b6b;
+    border-bottom: 3px solid white;
+}
+
+.li-menuActif a {
+    font-size: 18px;
+    line-height: 38px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #6f6b6b;     
+}
+
+.spanMenu{
+  padding: 0 30px 0 30px ;
+}
+
+.divider-menu {
+    color: #cbc5c5;
+    margin-right: 1px;
+}
+
+
+
+/* //////////////////////////////////BONBONS//////////////////////////////// */
+
+#home {
+    text-align: center;
+    margin-top: 5px; 
+}
+
+
+
+.show {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    zoom: 1;
+    vertical-align: top;
+    margin: 10px;
+    position: relative;
+    width: 210px;
+    margin-top: 25px;
+}
+
+.show_block {
+    display: block;
+    text-decoration: none;
+}
+
+.show a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    
+    text-decoration: none;
+    cursor: auto;
+}
+
+
+
+.show_block img {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 5px #333;
+    -moz-box-shadow: 0px 0px 5px #333;
+    box-shadow: 0px 0px 5px #333;
+    height: 280px ;
+}
+
+
+
+.show-info {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 210px;
+    height: 280px;
+    color: #fff;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.show-info:hover{
+    opacity:0.8;
+}
+
+
+.info {
+    font-size: 16px;
+    margin-top : 10px;  
+}
+
+.desc {
+    font-style: italic;
+    padding-top: 5px;
+    text-align: center;
+    margin-top : 20px; 
+}
+
+.title {
+    text-align: center;
+    font-size:25px;
+}
+
+.name  {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.info p {
+    font-size: 15px;
+}
+
+.hautDetailTool{
+    width: 105px;
+    height : 47px;
+    float : left;
+}
+
+.supprimerBonbon{
+    position: absolute;
+    top : 0;
+    right : 0;
+    cursor : pointer;
+}
+
+
+.pastillePromo{
+
+    width:40px;
+    height:20px;
+    
+    border-radius: 4px;
+    font-size : 12px;
+    position : absolute;
+    right : 0;
+    top : 283px;
+
+}
+
+.pastillePromo p{
+    margin: 0;
+    margin-top: 2px;
+
+}
+
+
+///////////////////////////////////RESTE/////////////////////////////////
+
+
+.ajoutmodif {
+    margin-top: 50px;
+}
+
+.bonbonTool{
+    margin-top:2%;
+    margin-left: 2%;
+    background-color: #D8E1DF;
+    width: 10%;
+    height:15%;
+    border: 2px solid #98CBC4;
+    float : left ;  
+}
+
+.detailTool{
+
+    opacity: 0;
+    height:100%;
+}
+
+.detailTool:hover{
+    opacity:1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#ajout2 {
+    display: inline-block;
+    border: 1px solid black;
+    position: relative;     
+    width: 320px;
+}
+
+
+.choiximage {
+    padding-top: 8px;
+    padding-left: 30px;
+}
+
+/*////////////////////////////////////////////PARTIE PAGE ADMIN NOUVELLE ///////////////////////////////*/
+
+
+/*////////////////////////////////////////////TOOL PAGE ///////////////////////////////*/
+#formulairePage{
+    display: block;
+    height: 200px;
+}
+
+#mesPages{
+    display: block;
+    margin-top:10px;
+    height: 500px
+}
+
+.affichePages{
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    margin: 10px;
+    position: relative;
+    width: 170px;
+    height : 200px;
+    border: 2px solid grey;
+}
+
+
+.imagePageModifier{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.imagePageSupprimer{
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+#ajout {
+    display: inline-block;
+    position: relative;     
+    width: 320px;
+    margin-top: 10px;
+    margin-left: 37%;
+    background-color: #C8D1CF;
+    border: 2px solid #B8C1BF;
+}
+
+
+.ajoutnomPage {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.labelPage {
+    position: absolute;
+    right:10px;
+}
+
+#inputHTML{
+    height : 200px;
+}
+
+
+
+
+/*///////////////////////////////////////////////// PAGE FORMAT 3 & 4///////////////////////////////*/
+
+/*///////////////////////////////////////////////// OPTION DESSUS///////////////////////////////*/
+
+#optionDessus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    position: relative;
+    height : 30px;
+}
+
+#divAvantOption{
+    width : 99px;
+    height : 30px;
+    float : left;
+}
+
+
+#divSearch{
+    float :left; 
+}
+
+#divSearch form{
+    margin : 0;
+}
+
+.textSearch{
+    background: white;
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 150px;
+    border-style: solid;
+    border-color: grey;
+    border-width : 1px 0px 1px 1px;
+    
+}
+
+.submitSearch{
+    
+    width:30px;
+    height:31px;
+    background: url("images/search.png");
+    background-size: 30px 30px;  
+    border: none;
+    cursor: pointer;
+    border-style: solid;
+    border-color: grey;
+    border-width : 1px 1px 1px 0px;
+}
+
+/* /////////////////////////////////////////// OPTION DE SELECTION ////////////////////////// */
+
+
+.espaceOption{
+    width : 50px;
+    height : 30px;
+    float : left;
+}
+
+
+/* ///////////////////////////////////////////COULEUR/////////////////////////////// */
+
+.selectCouleur{
+   width : 150px;
+   float : left; 
+   position : relative;
+}
+
+.couleurConteneur{
+   float : left;
+   width:22px;
+   height:22px; 
+   position : relative;
+   margin-top : 10px;
+   margin-left : 12px;
+}
+
+.espaceCouleur{
+    width:16px;
+    height : 22px;
+    float : left;
+    position : relative;
+    margin-top : 20px;
+}
+
+.imageTri{
+    width:25px;
+    height:25px;
+    border: 1px solid grey;
+}
+
+.imageTriSelect{
+    width:20px;
+    height:20px;
+    opacity: 1;
+    position : absolute;
+    top : 3px;
+    left : 3px;
+}
+
+.imageTriNonSelect{
+    width:20px;
+    height:20px;
+    opacity: 0;
+    position : absolute;
+    top : 3px;
+    left : 3px;
+}
+
+.imageTriNonSelect:hover{
+    opacity:1;
+}
+
+
+
+.listeTitreCacher{
+   width : 150px;
+   height : 30px;
+   background-color: #CCCCCC;
+   cursor : pointer;
+}
+
+.listeTitreCacher:hover{
+   background-color: #AAAAAA;
+}
+
+.listeTitreVisible{
+   width : 150px;
+   height : 30px;
+   background-color: white;
+   cursor : pointer;
+   border-width:1px 1px 0px 1px;
+   border-style:solid;
+   border-color: white;
+    border-bottom: 1px solid black;
+}
+
+.menuListeDetail{
+    float:left;
+    width : 75px;
+    height : 30px;
+}
+
+.texteCouleur{
+    padding-top:6px;
+    padding-left : 5px;
+    margin : 0;
+}
+
+.imageArrow{
+    width: 30px;
+    height : 30px;
+}
+
+.imageArrowInverse{
+    width: 30px;
+    height : 30px;
+    transform: rotate(180deg);
+}
+
+
+.mesTrisCacher{
+    width : 150px; /* Largeur des sous-listes */
+    left: -999em; /* Hop, on envoie loin du champ de vision */
+    position : absolute;
+    
+}
+
+.mesTrisVisible{
+    border-width:0px 1px 1px 1px;
+    border-style:solid;
+    border-color: #CCCCCC;
+    width : 150px;
+    height : 105px;
+    background-color: white;
+    position : absolute;
+    z-index: 1;
+}
+
+
+
+
+
+/* ///////////////////////////////////////////GOUT/////////////////////////////// */
+#selectGout{
+   width : 150px;
+   float : left; 
+}
+
+#formGout{
+    width : 100px;
+}
+
+#inputGout{
+    margin-left: 39px;
+}
+
+.labelCheckbox{
+    cursor : pointer;
+}
+/* /////////////////////////////////////   TRI   /////////////////////////////////// */
+
+#divTri{
+    height : 20px;
+    float:left;
+}
+
+#formTri{
+    margin-top: 5px;
+}
+
+/* ///////////////////////////////////////////OPTION SELECTIONNE/////////////////////////////// */
+#divOptionSelectionner{
+    position : relative;
+    margin-top : 10px;
+    width : 1000px;
+    margin-left: auto;
+    margin-right : auto;
+    
+}
+
+.optionSelectionner{
+    border: 1px dashed grey;
+    margin-left:1%;
+}
+
+#RetirerTous{
+    border: 1px dashed grey;
+    position: absolute;
+    right : 0;
+}
+/* ///////////////////////////// PAGE DETAIL BONBON ///////////////////////////////// */
+
+#pageDetailBonbon{
+    width: 1000px;
+    height : 500px;
+}
+
+#divDetailBonbon{
+    float : left;
+    width : 49%;
+}
+
+#imageDetailBonbon{
+    border : 1px solid black;
+}
+
+#detailDuBonbon{
+    float : left;
+    width : 49%;
+}
+
+
+/* /////////////////////////////////////// FORMAT 1 & 2////////////////////////////////// */
+
+#divFormat{
+    height : 500px;
+}
+
+.contenuFor1{
+    margin-left: auto;
+    margin-right: auto;
+    width : 820px;
+    //height : auto;
+     display: inline-block; 
+}
+
+.partiGauche{
+    float : left;
+    width:400px;
+}
+
+.partiGauche img {
+    width: 300px;
+    box-shadow: 0px 0px 5px #333;
+    border-radius: 2px;
+    border: 2px solid #6f6b6b;
+}
+
+
+.partiDroite{
+    float :left;
+    width : 400px;
+    margin-left: 20px;
+    
+}
+
+.partiDroite img{
+width: 300px;
+    box-shadow: 0px 0px 5px #333;
+    border-radius: 2px;
+    border: 2px solid #6f6b6b;
+	}
+
+
+/* /////////////////////////////////////// FORMAT 2 ////////////////////////////////// */
+.barAccueil
+{
+    width:30%;
+    height:2px;
+    background: grey;
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
